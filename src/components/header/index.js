@@ -44,12 +44,12 @@ const Header = () => {
     try {
       const data = await getCurrencyRate()
 
-      const selectedDate = R.filter(
+      const selectedData = R.filter(
         item => R.includes(item.cc, currencies),
         data,
       )
 
-      setData(selectedDate)
+      setData(selectedData)
     } catch (error) {
       throw error
     }
