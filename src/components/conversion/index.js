@@ -24,7 +24,7 @@ const Conversion = () => {
     try {
       const data = await getCurrencyRate()
 
-      const newObject = { cc: 'UAN', rate: 1, txt: 'Українська гривня' }
+      const newObject = { cc: 'UAH', rate: 1, txt: 'Українська гривня' }
 
       const newData = R.sortBy(R.prop('txt'), R.append(newObject, data))
 
