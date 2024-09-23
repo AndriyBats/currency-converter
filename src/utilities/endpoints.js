@@ -2,12 +2,12 @@ export const BASE_URL = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exc
 
 // API methods
 export const METHODS = {
-    GET: 'GET',
-    PUT: 'PUT',
-    POST: 'POST',
-    DELETE: 'DELETE',
+  GET: 'GET',
+  PUT: 'PUT',
+  POST: 'POST',
+  DELETE: 'DELETE',
 }
 
 export const CONTENT_TYPES = {
-    APPLICATION_JSON: 'application/json',
+  APPLICATION_JSON: 'application/json',
 }
